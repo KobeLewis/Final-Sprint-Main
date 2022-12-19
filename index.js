@@ -1,17 +1,17 @@
-<<<<<<< Updated upstream
+
 if( process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
 =======
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
->>>>>>> Stashed changes
+
 }
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 global.DEBUG = true;
 
-<<<<<<< Updated upstream
+
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
@@ -27,7 +27,7 @@ app.get('/', async (req, res) => {
 
 app.get('/about', async (req, res) => {
     res.render('about');
-=======
+
 //log events
 const logEvents = require("./logEvents");
 const EventEmitter = require("events");
