@@ -1,7 +1,3 @@
-
-if( process.env.NODE_ENV !== 'production') {
-    require('dotenv').config();
-=======
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
 
@@ -59,14 +55,14 @@ app.get("/", async (req, res) => {
 
 app.get("/about", async (req, res) => {
   res.render("about");
->>>>>>> Stashed changes
+
 });
 
 app.use((req, res) => {
-<<<<<<< Updated upstream
+
     res.status(404).render('404');
 =======
   res.status(404).render("404");
->>>>>>> Stashed changes
+
 });
 
