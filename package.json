@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
   "name": "final-sprint-main",
   "version": "1.0.0",
   "description": "Automobile search engine",
@@ -62,5 +61,5 @@
         "dotenv": "^16.0.0",
         "nodemon": "^2.0.15"
     }
->>>>>>> Stashed changes
+
 }
